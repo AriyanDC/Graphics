@@ -82,7 +82,6 @@ public class Main {
     public static Cell calculateFate(int ne, int state, int x, int y) {
 
         // NOTE: doing it with if statements is faster than switch-range
-        if (ne == 3 && state == 0) System.out.println("HOLD UP " + x + "AND" + y);
 
 //        Any live cell with fewer than two live neighbours dies, as if by underpopulation.
         if (ne < 2 && state == 1) return new Cell(state,0);
@@ -108,7 +107,7 @@ public class Main {
                     p.rheights.remove(i);
                 }
             } catch (IndexOutOfBoundsException e) {
-                System.out.println("Index out of bounds");
+//                System.out.println("Index out of bounds");
             }
         }
         p.repaint();

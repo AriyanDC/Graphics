@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c1284a4-3d88-4d44-a748-6cdc82db891d" name="Changes" comment="Basic rect on mouseclick">
-      <change afterPath="$PROJECT_DIR$/src/Cell.java" afterDir="false" />
+    <list default="true" id="6c1284a4-3d88-4d44-a748-6cdc82db891d" name="Changes" comment="Working Conway's game of life">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660854250308</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Working Conway's game of life">
+      <created>1660865942572</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660865942572</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create basic JFrame" />
     <MESSAGE value="Basic rect on mouseclick" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic rect on mouseclick" />
+    <MESSAGE value="Working Conway's game of life" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working Conway's game of life" />
   </component>
 </project>
